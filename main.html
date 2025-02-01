@@ -3,46 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Bar</title>
+    <title>Styled Nav-Bar</title>
     <style>
-        .navbar {
+        .container {
             background-color: #D3D3D3;
             padding: 10px;
         }
-
-        .navbar ul {
-            list-style: none; /* Remove bullet points */
-            margin: 0; /* Remove default ul margins */
-            padding: 0; /* Remove default ul padding */
-            display: flex; /* Use flexbox for horizontal layout */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
         }
-
-        .navbar li {
-            margin-right: 1rem; /* Space between list items */
+        li {
+            display: inline;
+            margin-right: 1rem;
         }
-
-        .navbar a {
-            text-decoration: none; /* Remove underlines from links */
-            color: #333; /* Example link color */
-            padding: 5px 10px; /* Add some padding to the links */
-        }
-        .navbar a:hover {
-            background-color: #ddd; /* Light gray on hover */
-            color: black;
-        }
-
     </style>
 </head>
 <body>
-
-    <div class=".container">
+    <nav class="container">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Itinerary</a></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+            <li>Itinerary</li>
         </ul>
-    </div>
-
+    </nav>
 </body>
 </html>
